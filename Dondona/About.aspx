@@ -92,7 +92,7 @@
             </SelectedItemTemplate>
         </asp:ListView>
         <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:DondonaConnectionString %>" SelectCommand="SELECT Role, COUNT(*) as 'count' FROM dbo.Dondona_Table GROUP BY Role;"></asp:SqlDataSource>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DondonaConnectionString %>" SelectCommand="SELECT Role, COUNT(*) as 'count' FROM [Dondona_Table] GROUP BY Role;"></asp:SqlDataSource>
+        
 
 
     <br />
@@ -192,4 +192,6 @@
     <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:DondonaConnectionString %>" SelectCommand="SELECT TOP 1 Weapon, COUNT(*) AS 'POPULAR UNGA' FROM [Dondona_Table] GROUP BY Weapon ORDER BY 'POPULAR UNGA' DESC;"></asp:SqlDataSource>
     <hr />
             <iframe width="1055" height="703" src="https://www.youtube.com/embed/54CzhuL9IqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-    </asp:Content>
+    </div>
+    </div>
+</asp:Content>

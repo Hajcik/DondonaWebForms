@@ -1,8 +1,4 @@
-﻿using MongoDB.Bson;
-using MongoDB.Bson.Serialization.Attributes;
-using System;
-
-namespace Dondona.Models
+﻿namespace Dondona.Models
 {
     public class Dondon
     {
